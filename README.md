@@ -11,20 +11,13 @@ If installation of frida-onload fails then change package.json to the local dire
 
 If build of example fails then change package.json of hooah-trace to local directory
 
-## install
-
-```$xslt
-git clone https://github.com/iGio90/Hooah-Trace.git
-npm install --unsafe-perm
-npm link
-```
 
 ### try it out
 ```$xslt
+git clone https://github.com/IHbib/Hooah-Trace.git
 cd example
-npm link hooah-trace
-npm install --unsafe-perm
-npm run watch
+npm install
+
 
 # make your edits to index.ts
 # inject the agent (quick att.py)
