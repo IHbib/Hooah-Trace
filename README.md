@@ -7,6 +7,7 @@ when you need to trace at single instruction and perform additional operations o
 
 when you need to get a proper understanding of what's going on down there with obfuscations killing the party.
 
+If installation of frida-onload fails then change package.json to the local directory of it #file:~/frida-onload
 
 ## install
 
