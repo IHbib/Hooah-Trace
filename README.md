@@ -15,7 +15,7 @@ If build of example fails then change package.json of hooah-trace to local direc
 
 ```$xslt
 git clone https://github.com/iGio90/Hooah-Trace.git
-npm install
+npm install --unsafe-perm
 npm link
 ```
 
@@ -23,7 +23,7 @@ npm link
 ```$xslt
 cd example
 npm link hooah-trace
-npm install
+npm install --unsafe-perm
 npm run watch
 
 # make your edits to index.ts
