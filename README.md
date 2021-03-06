@@ -9,6 +9,8 @@ when you need to get a proper understanding of what's going on down there with o
 
 If installation of frida-onload fails then change package.json to the local directory of it #file:~/frida-onload
 
+If build of example fails then change package.json of hooah-trace to local directory
+
 ## install
 
 ```$xslt
