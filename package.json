@@ -51,6 +51,6 @@
     "@types/frida-gum": "^13.1.0",
     "@types/node": "^12.0.4",
     "babelify": "^10.0.0",
-    "frida-onload": "git+https://github.com/IHbib/frida-onload.git" #could also declare directory like file:~/frida-onload
+    "frida-onload": "git+https://github.com/IHbib/frida-onload.git" 
   }
 }
