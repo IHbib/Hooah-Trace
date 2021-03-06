@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["esnext"],
+    "lib": ["es2020"],
     "strict": true,
     "module": "commonjs",
     "esModuleInterop": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "include": [
     "lib/**/*"
