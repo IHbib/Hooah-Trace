@@ -15,12 +15,12 @@ If build of example fails then change package.json of hooah-trace to local direc
 ### try it out
 ```$xslt
 git clone https://github.com/IHbib/Hooah-Trace.git
-cd example
+cd Hooah-Trace/example
 npm install
 
 
-# make your edits to index.ts
-# inject the agent (quick att.py)
+# make your edits to index.ts and att.py
+python3 att.py
 ```
 
 example code
