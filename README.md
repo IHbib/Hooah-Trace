@@ -15,6 +15,8 @@ If build of example fails then change package.json of hooah-trace to local direc
 ### try it out
 ```$xslt
 git clone https://github.com/IHbib/Hooah-Trace.git
+cd Hooah-Trace
+npm install
 cd Hooah-Trace/example
 npm install
 
